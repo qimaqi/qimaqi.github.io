@@ -11,7 +11,7 @@
   body {
     margin: 0;
     padding: 0;
-    background-color: lightblue;
+    background-color: rgb(71, 119, 192);
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 300;
@@ -20,11 +20,14 @@
   }
 
   /* Center content wrapper */
+  /* Center content wrapper */
   .content-wrapper {
     width: 100%;
-    max-width: 1200px; /* Adjust the width of the central content area */
+    max-width: 1100px; /* Adjust the width of the central content area */
     background-color: white; /* Central part background is white */
     padding: 20px; /* Add padding for spacing */
+    min-height: 100vh; /* Ensures the content area covers the full viewport height */
+    box-sizing: border-box; /* Ensure padding is included within the height/width */
   }
     /* Color scheme stolen from Sergey Karayev */
     a {
