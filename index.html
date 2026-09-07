@@ -271,6 +271,44 @@
         
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" >
     
+        <tr onmouseout="teeth2point_stop()" onmouseover="teeth2point_start()">
+          <td width="25%">
+            <div class="one">
+            <div class="two" id = 'teeth2point_shape'>
+              <img src='media/teeth2points.png' width="160" height="90"></div>
+              <img src='media/teeth2points.png' width="160" height="90"></div>
+            </div>
+            <script type="text/javascript">
+            function teeth2point_start() { 
+            document.getElementById('teeth2point_shape').style.opacity = "1";
+            }
+            function teeth2point_stop() { 
+            document.getElementById('teeth2point_shape').style.opacity = "0"; 
+            }
+            teeth2point_stop()
+            </script>
+          </td>
+          <td valign="top" width="75%">
+              <a href="https://arxiv.org/abs/2608.18667">
+                <papertitle>
+                  Teeth2Point: A Two-Stage Dental CBCT ROI-to-Point Segmentation Framework
+                </papertitle>
+              </a>
+            <br>
+              <a href="mailto:sjain@aligntech.com">Shipra Jain</a>,
+              <a href="mailto:nhuber@aligntech.com">Niko Benjamin Huber</a>,
+              <a href="https://qimaqi.github.io/">Qi Ma</a>,
+              <a href="https://people.ee.ethz.ch/~kender/">Ender Konukoglu</a>
+            <br>
+              <em>International Conference on Medical Image Computing and Computer Assisted Intervention (<strong>MICCAI</strong>)</em>, 2026
+            <br>
+            <a href="https://arxiv.org/abs/2608.18667">paper</a>
+            <p></p>
+            A two-stage dental CBCT segmentation framework that first localizes tooth regions of interest and then refines them into point-based tooth segmentations.
+            <p></p>
+          </td>
+        </tr>
+
         <tr onmouseout="persemon_stop()" onmouseover="persemon_start()">
           <td width="25%">
             <div class="one">
